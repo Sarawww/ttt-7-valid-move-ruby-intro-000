@@ -3,11 +3,6 @@
 def valid_move?(board,index)
   if position_taken?
     false
-  
-  
-  
-  
-  
   if board = ['','','','','','','','',''] || board !=  ['','','','','','','','',''] 
     true
   end
