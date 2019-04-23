@@ -3,7 +3,7 @@
 def valid_move?(board,index)
   if board = ['','','','','','','','','']
     true
-
+  end
 end
 
 
