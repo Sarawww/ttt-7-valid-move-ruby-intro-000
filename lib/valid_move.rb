@@ -2,6 +2,7 @@
 
 def valid_move?(board,index)
   if board = ['','','','','','','','',''] || board !=  ['','','','','','','','',''] 
+     index.beween?(0.8)
     true
   else index.between?(0,8)
     true
